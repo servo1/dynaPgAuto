@@ -35,3 +35,5 @@ Part of the purpose of this is to create a similar logical layer as postgrest bu
 
 This is working but definitely early alpha stages.
 
+When you include dynaUtils, this sets up a few basic functions on a global level as they are reused constantly through all my modules:  forEach, wf, ge().  Ge is a general function for error reporting.
+
