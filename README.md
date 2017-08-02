@@ -29,7 +29,7 @@ With the above code, you will find a near valid JSON schema is produced.
 
 Most of the SQL is taken from https://github.com/begriffs/postgrest/tree/master/src/PostgREST  
 
-The SQL is extracted from the queries that are generated during the initial setup.  
+The SQL is extracted from the queries that are generated during the initial setup of the haskel based PostgREST server.  
 
 Part of the purpose of this is to create a similar logical layer as postgrest but with Node as the layer in between.  In the long run, this will be apart of a Node, Postgres and Redis solution.  
 
